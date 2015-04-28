@@ -1,0 +1,18 @@
+</div>
+
+
+<div id="footerwrap"><!--start footer here    -->
+<div id="footer_hline"> </div>
+<div id="footer-menu">
+<a href="<?=base_url()?><?= $this->lang->lang()?>/home" class="footer-links"><span><?= lang('menu.home')?></span></a><span class="separator"> |</span>
+<a href="<?= lang('t_path') ?> "   <?= lang('registration_form.terms_header') ?>  class="thickbox" style="text-decoration: none;" onfocus="this.blur()" ><span style="color:#999999;"><?= lang('menu.terms')?> </span></a><span class="separator"> |</span>
+<a href="<?=base_url()?><?= $this->lang->lang()?>/aboutus" class="footer-links"><span><?= lang('menu.workflow')?></span></a><span class="separator"> |</span>
+<a href="<?=base_url()?><?= $this->lang->lang()?>/contactus" class="footer-links"><span><?= lang('menu.contact')?></span></a><span class="separator"></span>
+<div style="padding: 10px;"> <?php echo date('Y'); ?> Oldtimerslost.com - Design and hosting by <u><a class="u" style="color: red;" href="http://www.webdesign.ictglobe.nl" target="_blank">ICT Globe Webdesign</a></u></div>
+</div>
+   
+</div><!--ends footer here    -->
+</div>
+
+</body>
+</html>
