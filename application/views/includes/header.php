@@ -12,10 +12,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
 	<title>Sailor - Home</title>
 	
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/lightSlider.min.css" />
-	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="<?php echo base_url();?>css/style.css" />
+	<link rel="stylesheet" href="<?php echo base_url();?>css/fonts.css" />
+	<link rel="stylesheet" href="<?php echo base_url();?>css/lightSlider.min.css" />
+	<link rel="stylesheet" href="<?php echo base_url();?>css/animate.css" />
 
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Raleway:400,500,600,700&amp;subset=latin,greek,cyrillic,vietnamese' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="images/favicon.ico" />
@@ -44,14 +44,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<header class="header" role="banner">
 		<div class="wrap">
 			<!-- Logo -->
-			<a href="index.html" title="Sailor" class="logo"><span class="icojam_anchor"></span> Sailor</a>
+			<a href="<?php echo base_url();?>" title="Sailor" class="logo"><span class="icojam_anchor"></span> Travel Now Sri Lanka</a>
 			<!-- //Logo -->
 			
 			<!-- Primary menu -->
 			<nav class="main-nav" role="navigation">
 				<ul class="jetmenu" id="jetmenu">
 					<li><a href="javascript:void(0)" title="Book now" class="search-trigger">Book now</a></li>
-					<li><a href="charters.html" title="Yacht Charter">Yacht Charter</a>
+			<!-- 		<li><a href="charters.html" title="Yacht Charter">Yacht Charter</a>
 						<div class="megamenu full-width">
 							<div class="wrap">
 								<div class="row">
@@ -85,8 +85,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								</div>
 							</div>
 						</div>
-					</li>
-					<li><a href="destinations.html" title="Sailing routes">Sailing routes</a>
+					</li> -->
+					<li><a href="destinations.html" title="Sailing routes">Travelling routes</a>
 						<ul class="dropdown">
 							<li><a href="destinations.html" title="All destinations">All destinations</a></li>
 							<li><a href="destinations-single.html" title="Destination single">Destination single</a></li>
@@ -102,8 +102,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<li><a href="blog-single.html" title="Single post">Single post</a></li>
 						</ul>
 					</li>
-					<li><a href="contact.html" title="Contact">Contact</a></li>
-					<li><a href="#" title="">Pages</a>
+					<li><a href="<?php echo base_url();?>index.php/contact/index" title="Contact">Contact</a></li>
+					<!-- <li><a href="#" title="">Pages</a>
 						<div class="megamenu full-width">
 							<div class="wrap">
 								<div class="row">
@@ -146,8 +146,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								</div>
 							</div>
 						</div>
-					</li>
-					<li><a href="http://themeforest.net/user/themeenergy/portfolio" title="Purchase">Purchase</a></li>
+					</li> -->
+					<!-- <li><a href="http://themeforest.net/user/themeenergy/portfolio" title="Purchase">Purchase</a></li> -->
 				</ul>
 				
 				<!-- Search -->

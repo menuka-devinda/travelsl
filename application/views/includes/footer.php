@@ -1,45 +1,4 @@
-<!-- Bottom Sidebar -->
-	<aside class="sidebar bottom white" role="complementary">
-		<!-- Wrapper -->
-		<div class="wrap">
-			<div class="row">
-				<h2>Have questions? Get in touch. </h2>
-				<!-- OneFourth -->
-				<div class="one-fourth">
-					<h5>Mediterranean base</h5>
-					<p><span class="circle small"><i class="fa fa-phone fa-fw"></i></span> + 385 91 555 555</p>
-					<p><span class="circle small"><i class="fa fa-envelope fa-fw"></i></span> <a href="mailto:mediterranean@office.com">mediterranean@office.com</a></p>
-				</div>
-				<!-- //OneFourth -->
-				
-				<!-- OneFourth -->
-				<div class="one-fourth">
-					<h5>South Pacific base</h5>
-					<p><span class="circle small"><i class="fa fa-phone"></i></span> + 021 1 555 555</p>
-					<p><span class="circle small"><i class="fa fa-envelope"></i></span> <a href="mailto:southpacific@office.com">southpacific@office.com</a></p>
-				</div>
-				<!-- //OneFourth -->
-				
-				<!-- OneFourth -->
-				<div class="one-fourth">
-					<h5>Caribbean base</h5>
-					<p><span class="circle small"><i class="fa fa-phone"></i></span> + 33 44 555 555</p>
-					<p><span class="circle small"><i class="fa fa-envelope"></i></span> <a href="mailto:caribbean@office.com">caribbean@office.com</a></p>
-				</div>
-				<!-- //OneFourth -->
-				
-				<!-- OneFourth -->
-				<div class="one-fourth">
-					<h5>USA base</h5>
-					<p><span class="circle small"><i class="fa fa-phone"></i></span> + 1 555 555 555</p>
-					<p><span class="circle small"><i class="fa fa-envelope"></i></span> <a href="mailto:unitedstates@office.com">unitedstates@office.com</a></p>
-				</div>
-				<!-- //OneFourth -->
-			</div>
-		</div>
-		<!-- //Wrapper -->
-	</aside>
-	<!-- //Bottom Sidebar -->
+
 	
 	<!-- Footer -->
 	<footer class="footer" role="contentinfo">
@@ -108,13 +67,13 @@
 	<!-- //Footer -->
 	
 	<!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-	<script src="js/jquery-ui.min.js"></script>
-	<script src="js/jetmenu.js"></script>
-	<script src="js/jquery.uniform.min.js"></script>
-	<script src="js/jquery.lightSlider.min.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script src="js/scripts.js"></script>
+    <script src="<?php echo base_url();?>js/jquery.min.js"></script>
+	<script src="<?php echo base_url();?>js/jquery-ui.min.js"></script>
+	<script src="<?php echo base_url();?>js/jetmenu.js"></script>
+	<script src="<?php echo base_url();?>js/jquery.uniform.min.js"></script>
+	<script src="<?php echo base_url();?>js/jquery.lightSlider.min.js"></script>
+	<script src="<?php echo base_url();?>js/wow.min.js"></script>
+	<script src="<?php echo base_url();?>js/scripts.js"></script>
 	<script>
 		 $(document).ready(function() {
 			$("#lightSliderPosts").lightSlider({

@@ -530,16 +530,16 @@
 				<h2>Have questions? Get in touch. </h2>
 				<!-- OneFourth -->
 				<div class="one-fourth">
-					<h5>Mediterranean base</h5>
-					<p><span class="circle small"><i class="fa fa-phone fa-fw"></i></span> + 385 91 555 555</p>
-					<p><span class="circle small"><i class="fa fa-envelope fa-fw"></i></span> <a href="mailto:mediterranean@office.com">mediterranean@office.com</a></p>
+					<h5>Sri Lanka base</h5>
+					<p><span class="circle small"><i class="fa fa-phone fa-fw"></i></span> +9477-716-9082</p>
+					<p><span class="circle small"><i class="fa fa-envelope fa-fw"></i></span> <a href="mailto:Travelnowsrilanka@yahoo.co">Travelnowsrilanka@yahoo.co</a></p>
 				</div>
 				<!-- //OneFourth -->
 				
 				<!-- OneFourth -->
 				<div class="one-fourth">
-					<h5>South Pacific base</h5>
-					<p><span class="circle small"><i class="fa fa-phone"></i></span> + 021 1 555 555</p>
+					<h5>Social Media</h5>
+					<p><a href="https://www.facebook.com/TravelNowSriLanka" target="_blank"><span class="circle small"><i class="fa fa-facebook"></i></span> Travel Now Sri Lanka</a></p>
 					<p><span class="circle small"><i class="fa fa-envelope"></i></span> <a href="mailto:southpacific@office.com">southpacific@office.com</a></p>
 				</div>
 				<!-- //OneFourth -->
